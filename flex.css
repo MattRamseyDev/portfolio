@@ -1,0 +1,136 @@
+body {
+  font-family: 'Muli', sans-serif;
+  background: rgba(242, 242, 242, .6);
+  margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #31b0d5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar li {
+  padding: 10px 16px;
+  font-size: 1.25em;
+}
+
+.navbar a {
+  color: white;
+}
+
+.jumbotron {
+  height: 100vh; /*height to 100% of view height*/
+  margin-bottom: 0; /*no bottom margin*/
+
+  display: flex;
+  flex-direction: column;
+  background: #314755;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron-text {
+  /*TAGLINE UNDER NAME*/
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.jumbotron-text h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.jumbotron-text p {
+  margin: 0;
+}
+
+
+
+.ul-social {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.li-social {
+  list-style: none;
+}
+
+.social {
+  font-size: 2em;
+  color: white;
+  padding: 20px;
+}
+
+#down-arrow {
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#down-arrow a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
+  border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+
+
+.content-heading {
+  font-weight: 200;
+  font-size: 2rem;
+  color: #31b0d5;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.content-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 200px;
+  line-height: 1.5;
+  color: rgba(0,0,0,.75);
+  margin-bottom: 4rem;
+}
